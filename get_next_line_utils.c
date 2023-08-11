@@ -6,7 +6,7 @@
 /*   By: jmatheis <jmatheis@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/28 16:34:26 by jmatheis          #+#    #+#             */
-/*   Updated: 2022/05/17 16:02:03 by jmatheis         ###   ########.fr       */
+/*   Updated: 2023/08/11 13:51:00 by jmatheis         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,14 +50,10 @@ char	*ft_strjoin(char *s1, char *s2)
 	j = 0;
 	i = 0;
 	while (s1[j] != '\0')
-	{
 		concat_str[i++] = s1[j++];
-	}
 	j = 0;
 	while (s2[j] != '\0')
-	{
 		concat_str[i++] = s2[j++];
-	}
 	concat_str[i] = '\0';
 	free (s1);
 	return (concat_str);
