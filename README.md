@@ -21,7 +21,7 @@ Don't forget to add a file to be read!
 2. uncomment the main function in get_next_line.c file or add your own main.c file with header get_next_line.h
 3. compile your code with the following command and replace <size> with the desired buffer size:
 ```zsh
-gcc get_next_line.c get_next_line_utils.c -D BUFFER_SIZE=<size>
+gcc -Wall -Werror -Wextra -D BUFFER_SIZE=<size> get_next_line.c get_next_line_utils.c && ./a.out
 ```
 #### Bonus part
 In the Bonus part, the get_next_line() function can manage multiple file descriptors at the same time.
@@ -29,5 +29,5 @@ In the Bonus part, the get_next_line() function can manage multiple file descrip
 2. uncomment the main function in get_next_line_bonus.c file or add your own main.c file with header get_next_line_bonus.h
 3. compile your code with the following command and replace <size> with the desired buffer size:
 ```zsh
-gcc get_next_line_bonus.c get_next_line_utils_bonus.c -D BUFFER_SIZE=<size>
+gcc -Wall -Werror -Wextra -D BUFFER_SIZE=<size> get_next_line_bonus.c get_next_line_utils_bonus.c && ./a.out
 ```
