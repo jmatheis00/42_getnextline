@@ -6,7 +6,7 @@
 /*   By: jmatheis <jmatheis@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/28 16:27:17 by jmatheis          #+#    #+#             */
-/*   Updated: 2023/08/11 13:50:21 by jmatheis         ###   ########.fr       */
+/*   Updated: 2023/09/01 18:46:20 by jmatheis         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -119,6 +119,7 @@ int	main(void)
 	char	*filename1 = "../getnextline/file1";
 	char	*filename2 = "../getnextline/file2";
 
+	fd1 = open(filename1, O_RDONLY);
 	fd2 = open(filename2, O_RDONLY);
 	line = get_next_line(fd1);
 	printf("%s\n", line);
