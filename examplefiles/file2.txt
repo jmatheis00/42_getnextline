@@ -1,0 +1,5 @@
+File2's 1st line of content.
+Line 2 from file2.
+This is line number 3 in file2.
+The 4th line originates from file2.
+5th and final line of file2.

@@ -1,0 +1,10 @@
+This is line 1 of content in file1.
+The 2nd line comes from file1.
+Here's line number 3 from file1.
+In file1, this is line 4.
+You're reading the 5th line from file1.
+File1 presents the 6th line for you.
+This is line number 7 from file1.
+The 8th line originates from file1.
+Line 9 is sourced from file1.
+The 10th line, straight from file1.

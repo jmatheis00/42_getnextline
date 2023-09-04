@@ -6,7 +6,7 @@
 /*   By: jmatheis <jmatheis@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/28 16:27:17 by jmatheis          #+#    #+#             */
-/*   Updated: 2023/08/11 13:51:30 by jmatheis         ###   ########.fr       */
+/*   Updated: 2023/09/04 17:14:51 by jmatheis         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -115,8 +115,8 @@ int	main(void)
 	char	*line;
 	int		fd1;
 	int		fd2;
-	char	*filename1 = "../getnextline/file1";
-	char	*filename2 = "../getnextline/file2";
+	char	*filename1 = "./examplefiles/file1.txt";
+	char	*filename2 = "./examplefiles/file2.txt";
 
 	fd1 = open( filename1, O_RDONLY);
 	fd2 = open( filename2, O_RDONLY);
@@ -144,7 +144,6 @@ int	main(void)
 	line = get_next_line(fd2);
 	printf("%s\n", line);
 	free(line);
-	// system("leaks a.out");
  	return (0);
 }
 */
